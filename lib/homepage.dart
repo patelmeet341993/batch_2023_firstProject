@@ -50,12 +50,12 @@ class _HomePageState extends State<HomePage> {
                 child: Text("Click me $count",style: TextStyle(color: Colors.white,fontWeight: FontWeight.w600,fontSize: 20),),
               ),
             ),
-            
+
             InkWell(
               onTap: (){
 
                 count++;
-                print("Clicked $count");
+                print("Click $count");
 
                 setState(() {});
 
